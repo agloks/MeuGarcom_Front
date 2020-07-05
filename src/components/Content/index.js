@@ -49,9 +49,12 @@ function Content({ classes, Graph }) {
 					<Grid lg={6} xs={12} item align="center">
 						<ContentGraphic />
 					</Grid>
-					<Grid lg={6} xs={12} item>
+					<Grid lg={8} xs={12} item>
 						<Typography component="h2" variant="display1" color="textSecondary" align="center">
-							Welcome to your new project
+							Olá Laço De Ouro! como que vai seu dia?
+							Espero que o negócio esteja prosperando e que eu possa te servir com informações valiosas e facilitar sua gestão.
+							Qualquer dúvida sobre o uso de alguma coisa, passe o mouse no icone no topo á direita, pois lá muitas vezes possuo informações
+							úteis que possa te ajudar a navegar na interface e tira melhor proveito dela. 
 						</Typography>
 					</Grid>
 				</Grid>

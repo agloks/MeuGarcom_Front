@@ -8,6 +8,7 @@ import { withStyles } from '@material-ui/core/styles'
 const styles = theme => ({
 	secondaryBar: {
 		zIndex: 0,
+		background: "linear-gradient(225.34deg, #DD7C13 0%, #DD1313 101.17%)"
 	},
 })
 
@@ -19,7 +20,7 @@ function TabBar({ classes, tabNames = [] }) {
   };
 
 	return (
-		<AppBar component="div" className={classes.secondaryBar} color="primary" position="static" elevation={0}>
+		<AppBar component="div" className={classes.secondaryBar} position="static" elevation={0}>
 			<Tabs value={value} textColor="inherit" onChange={handleChange}>
 				{tabNames.map(tabName => (	
 					<Tab textColor="inherit" label={`${tabName}`} />

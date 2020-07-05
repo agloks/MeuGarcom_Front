@@ -44,7 +44,7 @@ const styles = theme => ({
 		backgroundColor: "rgba(32, 10, 10, 0.2)"
 	},
 	colorPalleteTestMuiToobarRoot: {
-		backgroud: "#B78A47"
+		backgroud: "linear-gradient(225.34deg, #DD7C13 0%, #DD1313 101.17%)"
 	}
 })
 
@@ -56,7 +56,7 @@ function Header({ classes, onDrawerToggle, title }) {
 				<Toolbar>
 					<Grid container alignItems="center" spacing={8}>
 						<Grid item xs>
-							<Typography style={{ textTransform: 'capitalize' }} color="inherit" variant="h5">
+							<Typography style={{ textTransform: 'capitalize', fontFamily: "cursive" }} color="inherit" variant="h5">
 								{title}
 							</Typography>
 						</Grid>
