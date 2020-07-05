@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Layout from 'components/Layout'
 import classNames from 'classnames'
 
-
 import GridContainer from 'components/Grid/GridContainer.js'
 import GridItem from 'components/Grid/GridItem.js'
 import Card from "components/Cards/Card.js"
@@ -40,7 +39,7 @@ const helpText = `
 
 function VendasPage({ classes, location }) {
 	const pageTitle = location ? location.pathname.replace(/\//g, '') : ''
-	console.log(classes)
+
 	return (
 			<>
 			<Layout location={location} title={pageTitle} helpText={helpText}>

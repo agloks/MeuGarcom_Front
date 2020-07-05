@@ -45,7 +45,7 @@ function StorageContent({ classes }) {
 		<>
 			<TabBar tabNames={tabNames} />
 			<div className={classes.container}>
-				<Paper className={classes.paper}>
+				<Paper className={classes.paper} >
 					<AppBar className={classes.searchBar} position="static" color="default" elevation={0}>
 						<Toolbar>
 							<Grid container spacing={16} alignItems="center">
