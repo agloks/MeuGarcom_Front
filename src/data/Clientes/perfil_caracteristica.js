@@ -1,4 +1,4 @@
-const data = [
+const data_caracteristica = [
   {
     "Perfil": "Calmo",
     "Gostaram": 90,
@@ -31,4 +31,4 @@ const data = [
   }
 ]
 
-export default data
+export default data_caracteristica

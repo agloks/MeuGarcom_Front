@@ -1,4 +1,4 @@
-const data = [
+const data_mais_vendidos = [
   {
     "country": "7:00",
     "hot dog": 13,
@@ -91,4 +91,4 @@ const data = [
   }
 ]
 
-export default data
+export default data_mais_vendidos
