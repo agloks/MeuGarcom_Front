@@ -27,7 +27,8 @@ const styles = theme => ({
 		marginRight: theme.spacing.unit,
 	},
 	contentWrapper: {
-		height: 248,
+		minHeight: 232,
+		height: "auto",
 	},
 	container: {
 		padding: '48px 36px 48px',

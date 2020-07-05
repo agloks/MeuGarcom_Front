@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Layout from 'components/Layout'
-import Content from 'components/Content'
+import CustomContent from 'components/Content/custom_content'
 
 function SairPage({ location }) {
 	const pageTitle = location ? location.pathname.replace(/\//g, '') : ''
 	return (
 		<Layout location={location} title={pageTitle}>
-			<Content />
+			<CustomContent image={true}>
+				Tchau, até a próxima Laço De Ouro!
+			</CustomContent>
 		</Layout>
 	)
 }

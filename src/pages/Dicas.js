@@ -71,14 +71,19 @@ function DicasPage({ location, classes }) {
 			<GridContainer justify="center" spacing={1} direction="row" position="relative">
 				<GridItem xs={12} sm={2}>
 					<CustomContent >
-						Seus clientes estão 
+						Seu fluxo de vendas mantem um ritmo constante, sabia?
 					</CustomContent>
 				</ GridItem>
 				<GridItem xs={12} sm={2}>
-					<CustomContent color={lightGreen}/>
+					<CustomContent color={lightGreen}>
+					Show! Você conseguiu nas ultimas semanas manter o mesmo de numero de venda do Combo 3 reduzindo custo de recursos.
+					</CustomContent>
 				</ GridItem>
 				<GridItem xs={12} sm={8}>
-					<CustomContent image={true}/>
+					<CustomContent image={true}>
+					Sabia que acontecem excelentes eventos alimenticios no periodo de Junho e Julho? esses eventos são ótimos locais para conseguir 
+					contato com distribuidoras fazendo liquidação de seus estoques.
+					</CustomContent>
 				</ GridItem>
 			</GridContainer> 
 			

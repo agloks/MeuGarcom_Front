@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core/styles'
 
 import MyResponsiveBar from "components/BarGraph"
 import data_mais_vendidos from "data/Vendas/mais_vendidos"
-// import data_menos_vendidos from "data/Vendas/menos_vendidos"
+import data_menos_vendidos from "data/Vendas/menos_vendidos"
 
 const styles = theme => ({
 	cardGraph: {
@@ -46,18 +46,18 @@ function VendasPage({ classes, location }) {
 				<GridContainer justify="center" spacing={0} direction="row" position="relative">
 					<GridItem xs={12} >
 						<Card className={classNames(classes.cardGraph, classes.titleCard)}>
-							Produtos mais vendidos por horário
+							Combos mais vendidos por horário
 						</Card>
 						<Card className={classNames(classes.cardGraph, classes.limitSize)}>
-							<MyResponsiveBar data={data_mais_vendidos}/>
+							<MyResponsiveBar data={data_mais_vendidos} keysData={[ 'Combo 1', 'Combo 2', 'Combo 3', 'Combo 4', 'Combo 5', 'Combo 6' ]}/>
 						</Card>
 					</GridItem>
 					<GridItem xs={12} >
 						<Card className={classNames(classes.cardGraph, classes.titleCard)}>
-							Produtos menos vendidos por horário
+							Bebidas menos vendidos por horário
 						</Card>
 						<Card className={classNames(classes.cardGraph, classes.limitSize)}>
-							<MyResponsiveBar data={data_mais_vendidos} schemaColor={"reds"}/>
+							<MyResponsiveBar data={data_menos_vendidos} schemaColor={"reds"} keysData={[ 'Bebida 1', 'Bebida 2', 'Bebida 3', 'Bebida 4', 'Bebida 5', 'Bebida 6' ]}/>
 						</Card>
 					</GridItem>
 				</GridContainer> 

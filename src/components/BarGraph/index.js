@@ -6,11 +6,11 @@ import { ResponsiveBar } from '@nivo/bar'
 // no chart will be rendered.
 // website examples showcase many properties,
 // you'll often use just a few of them.
-const MyResponsiveBar = ({ data, schemaColor }) => (
-    <ResponsiveBar
+const MyResponsiveBar = ({ data, schemaColor, keysData }) => {
+    return(<ResponsiveBar
         data={data}
-        keys={[ 'hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut' ]}
-        indexBy="country"
+        keys={keysData}
+        indexBy="tempo"
         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
         padding={0.3}
         innerPadding={3}
@@ -34,20 +34,6 @@ const MyResponsiveBar = ({ data, schemaColor }) => (
                 rotation: -45,
                 lineWidth: 6,
                 spacing: 10
-            }
-        ]}
-        fill={[
-            {
-                match: {
-                    id: 'fries'
-                },
-                id: 'dots'
-            },
-            {
-                match: {
-                    id: 'sandwich'
-                },
-                id: 'lines'
             }
         ]}
         borderWidth={2}
@@ -100,7 +86,7 @@ const MyResponsiveBar = ({ data, schemaColor }) => (
         animate={true}
         motionStiffness={90}
         motionDamping={15}
-    />
-)
+    />)
+}
 
 export default MyResponsiveBar
