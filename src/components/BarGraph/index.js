@@ -44,7 +44,7 @@ const MyResponsiveBar = ({ data, schemaColor, keysData }) => {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'country',
+            legend: 'Horários',
             legendPosition: 'middle',
             legendOffset: 30
         }}
@@ -52,7 +52,7 @@ const MyResponsiveBar = ({ data, schemaColor, keysData }) => {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'food',
+            legend: 'Vendas Total',
             legendPosition: 'middle',
             legendOffset: -40
         }}

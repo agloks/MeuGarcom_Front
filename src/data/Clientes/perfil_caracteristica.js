@@ -24,7 +24,7 @@ const data_caracteristica = [
     "Reprovaram": 47
   },
   {
-    "Perfil": "Sotisficaaado ",
+    "Perfil": "Sotisficado ",
     "Gostaram": 72,
     "Neutro": 12,
     "Reprovaram": 46

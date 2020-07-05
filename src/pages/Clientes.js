@@ -19,9 +19,9 @@ const styles = theme => ({
 		width: "95%",
 	},
 	limitSize: {
-		minHeight: "400px",
-		maxHeight: "600px",
-		height: "35.7em",
+		minHeight: "300px",
+		maxHeight: "700px",
+		height: "30em",
 	},
 	titleCard: {
 		position: "absolute",
