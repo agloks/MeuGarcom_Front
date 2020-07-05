@@ -1,8 +1,7 @@
-import classNames from 'classnames'
 import { withStyles } from '@material-ui/core/styles'
 import React, { memo } from 'react'
 
-import MySvg from "../../../public/images/logo_meugarcom_g_red.svg"
+import MySvg from "./logo_meugarcom_g_red.svg"
 
 const styles = themes => ({
 	logoDiv: {
