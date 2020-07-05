@@ -126,7 +126,7 @@ theme = {
 	}
 }
 
-const drawerWidth = 220
+const drawerWidth = 232
 
 const styles = {
 	root: {
@@ -151,7 +151,7 @@ const styles = {
 	},
 }
 
-function Layout({ location, title, children, classes }) {
+function Layout({ location, title, children, classes, helpText }) {
 	// eslint-disable-next-line no-undef
 	const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -173,7 +173,7 @@ function Layout({ location, title, children, classes }) {
 					</Hidden>
 				</nav>
 				<div className={classes.appContent}>
-					<Header onDrawerToggle={() => setMobileOpen(!mobileOpen)} title={title} />
+					<Header onDrawerToggle={() => setMobileOpen(!mobileOpen)} title={title} helpText={helpText} />
 					<main className={classes.mainContent}>{children}</main>
 				</div>
 			</div>

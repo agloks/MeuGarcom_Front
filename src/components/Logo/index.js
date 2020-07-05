@@ -8,14 +8,19 @@ const styles = themes => ({
 	logoDiv: {
 		height: "25%",
 		width: "100%",
-		background: "#ece7e7"
+		background: "#ece7e7",
+	},
+	imgLogo: {
+		objectFit: "cover",
+		width: "100%",
+		height: "100%"
 	}
 })
 
 function Logo({classes}) {
 	return (
 			<div className = {classes.logoDiv}>
-					<img src={MySvg} width="100%" height="100%"/>
+					<img src={MySvg} className={classes.imgLogo} />
 			</div>
 	)
 }

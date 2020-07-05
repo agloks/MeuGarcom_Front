@@ -5,10 +5,15 @@ import OrdensContent from 'components/OrdensContent'
 
 import DataTable from 'components/Table'
 
+const helpText = `
+	Aqui é onde você gerencia os pedidos de seus clientes, emite os pagamentos, e tem todo controle sobre como anda a situação
+	do seu estabelecimentos sem dificuldades e complicações.
+`
+
 function OrdensPage({ location }) {
 	const pageTitle = location ? location.pathname.replace(/\//g, '') : ''
 	return (
-		<Layout location={location} title={pageTitle}>
+		<Layout location={location} title={pageTitle} helpText={helpText}>
 			<OrdensContent Table={() => <DataTable />}/>
 		</Layout>
 	)

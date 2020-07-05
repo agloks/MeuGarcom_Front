@@ -21,12 +21,16 @@ const styles = theme => ({
 	}
 })
 
+const helpText = `
+	Tenha dados sobre suas vendas, veja quais são os mais vendidos e menos vendidos em segundos, veja seus lucros exato em cada refeição.
+`
+
 function VendasPage({ classes, location }) {
 	const pageTitle = location ? location.pathname.replace(/\//g, '') : ''
 	console.log(classes)
 	return (
 		<>
-			<Layout location={location} title={pageTitle}>
+			<Layout location={location} title={pageTitle} helpText={helpText}>
 				<GridContainer justify="center" spacing={0}>
 					<GridItem xs={12} sm={6} md={6}>
 						<Card className={classes.cardGraph}>

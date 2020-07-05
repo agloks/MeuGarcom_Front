@@ -35,7 +35,7 @@ const categories = [
 	{
 		id: 'Predição',
 		children: [
-			{ id: 'Analises', icon: <PublicIcon />, page: 'Analises' },
+			{ id: 'Dicas', icon: <PublicIcon />, page: 'Dicas' },
 			{ id: 'Insights Clientes', icon: <PeopleIcon />, page: 'Clientes' },
 			{ id: 'Performance', icon:  <PermMediaOutlinedIcon />, page: 'Performance' },
 			{ id: 'Sair', icon: <PhonelinkSetupIcon />, page: 'Sair' },

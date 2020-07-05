@@ -1,6 +1,6 @@
 const data = [
   {
-    "country": "AD",
+    "country": "7:00",
     "hot dog": 13,
     "hot dogColor": "hsl(61, 70%, 50%)",
     "burger": 83,
@@ -15,7 +15,7 @@ const data = [
     "donutColor": "hsl(231, 70%, 50%)"
   },
   {
-    "country": "AE",
+    "country": "9:30",
     "hot dog": 160,
     "hot dogColor": "hsl(258, 70%, 50%)",
     "burger": 155,
@@ -30,7 +30,7 @@ const data = [
     "donutColor": "hsl(147, 70%, 50%)"
   },
   {
-    "country": "AF",
+    "country": "12:00",
     "hot dog": 180,
     "hot dogColor": "hsl(285, 70%, 50%)",
     "burger": 160,
@@ -45,7 +45,7 @@ const data = [
     "donutColor": "hsl(73, 70%, 50%)"
   },
   {
-    "country": "AG",
+    "country": "15:00",
     "hot dog": 24,
     "hot dogColor": "hsl(346, 70%, 50%)",
     "burger": 38,
@@ -60,7 +60,7 @@ const data = [
     "donutColor": "hsl(173, 70%, 50%)"
   },
   {
-    "country": "AI",
+    "country": "18:00",
     "hot dog": 80,
     "hot dogColor": "hsl(288, 70%, 50%)",
     "burger": 185,
@@ -75,7 +75,7 @@ const data = [
     "donutColor": "hsl(151, 70%, 50%)"
   },
   {
-    "country": "AL",
+    "country": "22:00",
     "hot dog": 75,
     "hot dogColor": "hsl(28, 70%, 50%)",
     "burger": 26,
@@ -88,21 +88,6 @@ const data = [
     "friesColor": "hsl(214, 70%, 50%)",
     "donut": 102,
     "donutColor": "hsl(262, 70%, 50%)"
-  },
-  {
-    "country": "AM",
-    "hot dog": 61,
-    "hot dogColor": "hsl(30, 70%, 50%)",
-    "burger": 170,
-    "burgerColor": "hsl(98, 70%, 50%)",
-    "sandwich": 17,
-    "sandwichColor": "hsl(114, 70%, 50%)",
-    "kebab": 67,
-    "kebabColor": "hsl(176, 70%, 50%)",
-    "fries": 174,
-    "friesColor": "hsl(23, 70%, 50%)",
-    "donut": 22,
-    "donutColor": "hsl(289, 70%, 50%)"
   }
 ]
 

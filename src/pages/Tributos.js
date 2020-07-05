@@ -22,12 +22,16 @@ const styles = theme => ({
 	}
 })
 
+const helpText = `
+	Complicações com burocracias? NUNCA MAIS, lidamos com todo trabalho chato para você!
+`
+
 function TributosPage({ classes, location }) {
 	const pageTitle = location ? location.pathname.replace(/\//g, '') : ''
 	console.log(classes)
 	return (
 		<>
-			<Layout location={location} title={pageTitle}>
+			<Layout location={location} title={pageTitle} helpText={helpText}>
 				<GridContainer justify="center" spacing={0}>
 					<GridItem xs={12} sm={6} md={6}>
 						<Card className={classes.cardGraph}>

@@ -48,7 +48,7 @@ const styles = theme => ({
 	}
 })
 
-function Header({ classes, onDrawerToggle, title }) {
+function Header({ classes, onDrawerToggle, title, helpText }) {
 	return (
 		<>
 			<AppBar color="primary" position="sticky" elevation={0} />
@@ -61,7 +61,7 @@ function Header({ classes, onDrawerToggle, title }) {
 							</Typography>
 						</Grid>
 						<Grid item>
-							<Tooltip title="Help">
+							<Tooltip title={helpText ? helpText : "Help"}>
 								<IconButton color="inherit">
 									<HelpIcon />
 								</IconButton>
