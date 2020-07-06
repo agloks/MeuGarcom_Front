@@ -11,7 +11,7 @@ A solução “Meu Garçom” é uma inovação incremental que oferece diversas
 <h3 align="center" font-style="italic">
 	Tecnologias Core Do Projeto
 </h3>
-<p>
+<p align="center" font-style="cursive">
 	<span> React | Gatsby | Material-UI | Nivo </span>
 </p>
 
