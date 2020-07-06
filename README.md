@@ -94,3 +94,18 @@ A solução “Meu Garçom” é uma inovação incremental que oferece diversas
             └── logo_meugarcom.svg
 
 ```
+
+# Features:
+
+- [x] Integração real de dashboards
+- [x] Páginas dos serviço prestados
+- [x] Responsivo para tablet e desktops
+- [x] Tabela altamente dinâmica e interativa para manipulação do estabelicmento
+- [x] Informação de ajuda em todas as páginas
+- [x] CI/CD com netfly
+
+# TODO:
+
+- [ ] Puxar os dados da api ja existente da nossa aplicação no back
+- [ ] Navegação das ordens
+- [ ] Botão de linkagem a pagamentos
