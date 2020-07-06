@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68ef5b57-6697-4a4e-94d3-982de6261016/deploy-status)](https://app.netlify.com/sites/confident-curie-4c38be/deploys)
 <h1 align="center">
 	MeuGarçom - Front Repo 
 </h1>
