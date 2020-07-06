@@ -12,7 +12,7 @@ A solução “Meu Garçom” é uma inovação incremental que oferece diversas
 	Tecnologias Core Do Projeto
 </h3>
 <p align="center" font-style="cursive">
-	<span> React | Gatsby | Material-UI | Nivo </span>
+	<span> React | Gatsby | Material-UI | Nivo | Netlify </span>
 </p>
 
 <h3 align="center" font-style="italic">
@@ -102,7 +102,7 @@ A solução “Meu Garçom” é uma inovação incremental que oferece diversas
 - [x] Responsivo para tablet e desktops
 - [x] Tabela altamente dinâmica e interativa para manipulação do estabelicmento
 - [x] Informação de ajuda em todas as páginas
-- [x] CI/CD com netfly
+- [x] CI/CD com Netlify
 
 # TODO:
 
